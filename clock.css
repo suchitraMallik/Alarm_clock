@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+    border: 8px solid rgb(0, 0, 11);
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: teal url('time.jpg') no-repeat fixed center;
+    background-size: 100% 100%;
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: rgb(25, 5, 74);
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 0.7em;
+  color: rgb(5, 0, 0);
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: rgb(85, 252, 8);
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:rgb(114, 157, 114);
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:rgb(210, 125, 125);
+    margin-top:10px;
+
+}
+
